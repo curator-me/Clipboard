@@ -1,6 +1,6 @@
 {
   "name": "clipboard-history",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "description": "Local clipboard history for Ubuntu GNOME",
