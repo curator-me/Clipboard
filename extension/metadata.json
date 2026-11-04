@@ -1,0 +1,9 @@
+{
+  "uuid": "clipboard-history@local",
+  "name": "Clipboard History",
+  "description": "A native, local clipboard history picker with search, pins, text and PNG support. Select a clip, then paste with your destination app's shortcut.",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.clipboard-history",
+  "version": 2,
+  "version-name": "0.1.1"
+}

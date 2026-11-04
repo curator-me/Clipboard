@@ -1,0 +1,25 @@
+/* Scoped shell styling: native text/selection colors come from the GNOME theme. */
+.clip-history-menu .popup-menu-content { padding: 10px 6px; }
+.clip-title { font-weight: bold; font-size: 1.15em; }
+.clip-search { border-radius: 10px; padding: 9px 12px; }
+.clip-history-list { spacing: 6px; }
+.clip-entry-row { spacing: 4px; }
+.clip-entry { border-radius: 10px; padding: 10px 12px; }
+.clip-entry:selected { background-color: rgba(128, 128, 128, 0.22); box-shadow: inset 0 0 0 2px rgba(128, 128, 128, 0.7); }
+.clip-entry-body { spacing: 6px; }
+.clip-preview { max-width: 310px; }
+.clip-item-meta, .clip-muted { opacity: 0.65; font-size: 0.9em; }
+.clip-row-tools { spacing: 2px; }
+.clip-icon-button { border-radius: 8px; padding: 10px; }
+.clip-icon-button:hover, .clip-icon-button:focus,
+.clip-small-button:hover, .clip-small-button:focus { background-color: rgba(128, 128, 128, 0.22); }
+.clip-icon-button:focus, .clip-small-button:focus { box-shadow: inset 0 0 0 2px rgba(128, 128, 128, 0.7); }
+.clip-small-button { border-radius: 8px; padding: 8px 12px; background-color: rgba(128, 128, 128, 0.10); }
+.clip-empty { padding: 28px 12px; spacing: 12px; }
+.clip-empty-title { font-weight: bold; }
+.clip-status { max-width: 440px; font-size: 0.9em; opacity: 0.75; }
+.clip-footer { spacing: 10px; }
+.clip-footer-help { max-width: 440px; font-size: 0.9em; opacity: 0.8; }
+.clip-footer-controls { spacing: 8px; }
+.clip-destructive { font-weight: bold; }
+.clip-thumbnail { border-radius: 6px; }

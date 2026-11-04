@@ -1,0 +1,16 @@
+{
+  "name": "clipboard-history",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "description": "Local clipboard history for Ubuntu GNOME",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:native": "bash scripts/test-gjs.sh",
+    "check": "bash scripts/check.sh",
+    "build": "bash scripts/build.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

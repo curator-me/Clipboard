@@ -1,0 +1,23 @@
+# Private development notes stay local on both main and dev
+/docs/
+/.local/
+
+# Generated dependencies and packages
+node_modules/
+.venv/
+dist/
+coverage/
+
+# Runtime/user data never belongs in the repository
+*.sqlite*
+*.log
+*.zip
+
+# Editor and local configuration
+.vscode/
+.idea/
+.DS_Store
+.claude/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clipboard-history" path="/org/gnome/shell/extensions/clipboard-history/">
+    <key name="clipboard-history-toggle" type="as">
+      <default>['&lt;Super&gt;&lt;Shift&gt;v']</default>
+      <summary>Open clipboard history</summary>
+      <description>Default avoids GNOME's existing Super+V notification shortcut.</description>
+    </key>
+    <key name="capture-enabled" type="b">
+      <default>true</default>
+      <summary>Capture clipboard changes</summary>
+    </key>
+    <key name="max-entries" type="i">
+      <range min="5" max="200"/>
+      <default>50</default>
+      <summary>Maximum number of history entries</summary>
+    </key>
+    <key name="remember-history" type="b">
+      <default>false</default>
+      <summary>Save history locally between sessions</summary>
+      <description>Opt-in unencrypted local storage. Disabling removes the app-managed saved file.</description>
+    </key>
+  </schema>
+</schemalist>
