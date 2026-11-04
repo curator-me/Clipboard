@@ -2,6 +2,16 @@
 
 All notable release changes are recorded here. Versions follow Semantic Versioning.
 
+## 0.1.2 — Unreleased
+
+### Documentation
+
+- Shorten the README to quick setup, core features, basic usage, and essential privacy/compatibility warnings.
+- Add a public user guide for detailed shortcuts, limits, persistence, troubleshooting, and uninstall instructions.
+- Add a public contributing guide for build/tests, live desktop acceptance, branch workflow, and repository content policy.
+- Keep machine-specific Git backup details in ignored local notes, without public links to those notes.
+- Synchronize SemVer metadata at 0.1.2 and GNOME extension revision at 3; clipboard behavior and the default shortcut are unchanged.
+
 ## 0.1.1 — Unreleased
 
 ### Repository and delivery
@@ -37,4 +47,4 @@ All notable release changes are recorded here. Versions follow Semantic Versioni
 
 ### Verification status
 
-25 automated tests, native API/PNG/private-storage smoke tests, schema/source checks and archive build pass. The extension has not been installed/enabled; real desktop clipboard and visual acceptance remain pending. This is not a desktop-tested release.
+Initial verification passed 25 automated tests, native API/PNG/private-storage smoke tests, schema/source checks, and archive build. Those checks did not install or enable the extension; real desktop clipboard and visual acceptance remain pending. This is not a desktop-tested release.
